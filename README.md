@@ -4,7 +4,9 @@
 
 ## version of this article
 
-it is version 1.0.0.
+it is version 1.1.0 (the latest one).
+
+for the changelog, see the commit history of [this project repository on github](https://github.com/silvuss/silvuss-thoughts).
 
 for more details on how i have chosen to use versions, see [semantic versioning](https://semver.org/).
 
@@ -24,17 +26,17 @@ if you are not analysing the subject thoroughly, keep the listings short. if you
 
 ### 2. code, images, videos and links should only illustrate a subject, not describe it.
 
-if code, images, videos, or links seems to describe text, maybe you should split it into more articles. **about the code specifically:** if it is turning out to be more code than text (in the whole article, in letters), then try to reverse the proportions.
+if code, images, videos, or links seems to describe text, maybe you should split it into more articles. **about the code specifically:** if it is turning out to be more code than text (in the whole article, counting letters), then try to reverse the proportions.
 
 ### 3. code, images, videos and links should be as difficult as text.
 
-code (or an image, a video, or a link) more difficult than text will make the reader confused; in the opposite, if it is easier than text, it could make the reader wrong.
+code (or an image, a video, or a link) that is more difficult than text will make the reader confused; if it is easier than text, it could make the reader wrong.
 
 ### 4. examples should speak for themselves.
 
 if you provide examples, try to keep them accurate – and if you cannot, tell the reader about it. a poor example **with** an indication that it is poor is better than no example. even more, no example is better than a poor example **without** an indication that it is poor.
 
-### 3. the readers should try to understand the subject, not the article.
+### 3. the reader should try to understand the subject, not the article.
 
 simple problems described in a complex way become complex. always write simple, clear, and short sentences – no matter that you are either describing the basics, or an advanced topic.
 
@@ -57,12 +59,12 @@ if the first paragraph tells the reader "you should do X", and the latter "you h
 ### 8. the reader is out-of-date.
 
 if the article describes a subject considered as up-to-date or not, or something changing fast, e.g. a library (or even one version of it), then:
-    - inform the reader about the version you describe;
-    - inform the reader whether this version is up-to-date. make it clear if it is not.
+- inform the reader about the version you describe;
+- inform the reader whether this version is up-to-date. make it clear if it is not.
 
 ### 9. the reader knows only the basics.
 
-if you have to assume that the reader has any advanced knowledge about the subject, mention it in the introduction (so that anybody who do not have the knowledge may exit early). otherwise, assume it knows only the basics.
+if you have to assume that the reader has any advanced knowledge about the subject, then mention it in the introduction (so that anybody who do not have the knowledge may exit early). otherwise, assume the reader knows only the basics.
 
 ### 10. the reader reads only your article.
 
