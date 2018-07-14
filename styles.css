@@ -1,0 +1,54 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+
+    max-width: 900px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.articles-list {
+    list-style: none;
+    border-left: none;
+    border-top: 1px solid darkgrey;
+    word-wrap: break-word;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* a hack, because i did not know how to do that differently. */
+    height: calc(100vh - 40px);
+}
+
+@media (min-width: 450px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .articles-list {
+        border-left: 1px solid darkgrey;
+        border-top: none;
+
+        width: 40%;
+    }
+
+    .header {
+        width: 40%;
+    }
+
+    .header__description {
+        line-height: 150%;
+    }
+}
