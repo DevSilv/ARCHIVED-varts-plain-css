@@ -2,9 +2,7 @@
 
 ## version of this article
 
-this is version 2.0.0.
-
-the directly previous version was 1.1.0.
+this is version 2.1.0.
 
 ## introduction
 
