@@ -18,16 +18,13 @@
             <p class="header__description">hello, i am silvuss, and here you can find my thoughts on programming, and maybe some other topics. english is not my native language.</p>
         </header>
         <ul class="articles-list">
+            {% for post in site.posts %}
             <li>
                 <p>
-                    <a href="https://github.com/silvuss/silvuss-thoughts/blob/master/the-things-that-every-developer-should-know.md">the things that every blogging developer should know</a> — 2018 Jul 14
+                    <a href="{{ post.url }}">{{ post.title }}</a>
                 </p>
             </li>
-            <li>
-                <p>
-                    <a href="https://github.com/silvuss/silvuss-thoughts/blob/master/my-versioning-system.md">versioning system of my articles</a> — 2018 Jul 14
-                </p>
-            </li>
+            {% endfor %}
         </ul>
     </div>
 </body>

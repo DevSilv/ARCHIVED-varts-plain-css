@@ -1,3 +1,7 @@
+---
+title: "the things that every blogging developer should know"
+---
+
 # the things that every blogging developer should know
 
 ## version of this article
