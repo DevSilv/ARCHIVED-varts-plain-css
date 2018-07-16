@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "the things that every blogging developer should know"
 date: "2018 Jul 10"
 ---
