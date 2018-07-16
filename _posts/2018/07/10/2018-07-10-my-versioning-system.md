@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "the versioning system of my articles"
 date: "2018 Jul 10"
 ---
