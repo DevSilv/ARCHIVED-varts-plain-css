@@ -4,7 +4,7 @@ title: "the versioning system of my articles"
 date: "2018 Jul 10"
 ---
 
-# the versioning system of my articles
+# {{ page.title }}
 
 ## version of this article
 

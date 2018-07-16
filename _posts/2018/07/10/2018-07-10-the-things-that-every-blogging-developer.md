@@ -4,7 +4,7 @@ title: "the things that every blogging developer should know"
 date: "2018 Jul 10"
 ---
 
-# the things that every blogging developer should know
+# {{ page.title }}
 
 ## version of this article
 
