@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    align-items: flex-start;
+}
+
+.header {
+    text-align: center;
+
+    margin: 10px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.header__heading {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.header__description {
+    margin: 0;
+}
+
+.article-list {
+    list-style: none;
+    border-left: none;
+    border-top: 1px solid darkgrey;
+    word-wrap: break-word;
+
+    margin: 10px;
+    margin-right: 20px;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 15px;
+    /* a hack, because i did not know how to make
+    a stretched line differently than as a border. */
+    height: calc(100vh - 60px);
+}
+
+@media (min-width: 450px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        width: 40%;
+        margin-right: 0;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+    }
+
+    .header__description {
+        line-height: 150%;
+    }
+
+    .article-list {
+        border-left: 1px solid darkgrey;
+        border-top: none;
+
+        width: 40%;
+        margin-right: 10px;
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+}

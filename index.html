@@ -1,6 +1,3 @@
----
----
-
 <!doctype html>
 
 <html lang="en">
@@ -11,16 +8,17 @@
     <meta name="description" content="these are silvuss's thoughts">
     <title>silvuss's thoughts</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="_layouts/styles.css">
+    <link rel="stylesheet" href="_layouts/index-styles.css">
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <h1>silvuss's thoughts</h1>
-            <p class="header__description">hello, i am silvuss, and here you can find my thoughts on programming, and maybe some other topics. english is not my native language.</p>
+            <h1 class="header__heading">silvuss's thoughts</h1>
+            <p class="header__description">{{ site.description }}</p>
         </header>
-        <ul class="articles-list">
+        <ul class="article-list">
             {% for post in site.posts %}
             <li>
                 <p>
