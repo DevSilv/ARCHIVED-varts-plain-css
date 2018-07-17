@@ -17,8 +17,9 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1 class="header__heading">silvuss's thoughts</h1>
+            <h1 class="header__heading">{{ site.title }}</h1>
             <p class="header__description">{{ site.description }}</p>
+            <p class="header__copyright-note">{{ site.copyright-note }}</p>
         </header>
         <ul class="article-list">
             {% for post in site.posts %}
