@@ -3,11 +3,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header__description,
-.header__copyright-note {
-    margin-top: 15px;
-}
-
 .container {
     align-items: flex-start;
 }
@@ -26,12 +21,10 @@ body {
     margin: 0;
 }
 
-.header__description {
-    margin: 0;
-}
-
+.header__description,
 .header__copyright-note {
     margin: 0;
+    margin-top: 15px;
 }
 
 .article-list {
