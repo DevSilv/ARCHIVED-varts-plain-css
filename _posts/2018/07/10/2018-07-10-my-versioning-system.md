@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "the versioning system of my articles"
-date: "2018 Jul 10"
+date: 2018-07-10
 ---
 
 # {{ page.title }}
 
 ## version of this article
 
-this is version 1.3.0.
+this is version 1.3.1.
 
 ## introduction
 
-_**tip:** in the article i will use the term "versioning" as in "software versioning". if you are not aware of what software versioning is, you can look at https://en.wikipedia.org/wiki/Version_control or https://en.wikipedia.org/wiki/Software_versioning.
+_**tip:** in the article i will use the term "versioning" as in "software versioning". if you are not aware of what software versioning is, you can look at [version control on wikipedia](https://en.wikipedia.org/wiki/Version_control) or [software versioning on wikipedia](https://en.wikipedia.org/wiki/Software_versioning)._
 
 most of the blog posts on the internet (probably) are versioned this or that way.
 

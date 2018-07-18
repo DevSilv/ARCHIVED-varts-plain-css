@@ -5,3 +5,15 @@ body {
     max-width: 800px;
     margin: auto;
 }
+
+.footer {
+    background-color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    text-align: center;
+}

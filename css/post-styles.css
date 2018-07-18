@@ -1,8 +1,12 @@
+.containter {
+    display: grid;
+    grid-template-rows: 40px 1fr auto;
+    grid-template-columns: auto;
+}
+
 .header {
     background-color: lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    height: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 10px;
@@ -10,24 +14,32 @@
 
     position: sticky;
     top: 0;
-    /* unfortunately, i do not know better solution than z-index */
-    z-index: 1;
 
     display: flex;
     align-items: center;
+
+    grid-row: 1 / span 1;
 }
 
 .content-container {
     display: flex;
     justify-content: center;
+
+    grid-row: 2 / span 1;
 }
 
 .content {
-    position: relative;
-    top: 30px;
     text-align: justify;
-    
+
     width: 90%;
+}
+
+.footer {
+    grid-row: 3 / span 1;
+}
+
+.tooltip {
+    text-decoration: underline;
 }
 
 h1 {
@@ -35,8 +47,13 @@ h1 {
 
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 80px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+h2 {
+    margin-top: 50px;
 }
 
 p {

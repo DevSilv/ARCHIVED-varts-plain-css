@@ -1,10 +1,5 @@
 body {
-    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.container {
-    align-items: flex-start;
 }
 
 .header {
@@ -22,9 +17,9 @@ body {
 }
 
 .header__description,
-.header__copyright-note {
+.header__contact {
     margin: 0;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .article-list {
@@ -38,40 +33,55 @@ body {
     margin-top: 0;
     padding: 10px;
     padding-top: 15px;
-    /* a hack, because i did not know how to make
-    a stretched line differently than as a border. */
-    height: calc(100vh - 60px);
 }
 
 @media (min-width: 450px) {
     .container {
-        display: flex;
-        justify-content: center;
+        height: 100vh;
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr auto;
     }
 
     .header {
-        width: 40%;
+        width: 85%;
         margin-right: 0;
         margin-top: 20px;
         padding-bottom: 10px;
         padding-right: 15px;
+
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
     }
 
     .header__description,
-    .header__copyright-note {
+    .header__contact {
         line-height: 150%;
     }
 
     .article-list {
         border-left: 1px solid darkgrey;
         border-top: none;
+        text-align: center;
 
-        width: 40%;
+        width: 85%;
         margin-right: 10px;
         margin-left: 0;
         margin-top: 20px;
-        margin-bottom: 0;
+        margin-bottom: 20px;
         padding-top: 10px;
         padding-left: 15px;
+        /* a hack, because i did not know how to make
+        a stretched line differently than as a border. */
+        /* height: 100%; */
+
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .footer {
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 1;
     }
 }

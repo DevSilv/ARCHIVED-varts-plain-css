@@ -1,4 +1,5 @@
---- ---
+---
+---
 
 <!doctype html>
 
@@ -7,10 +8,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="author" content="silvuss">
-    <meta name="description" content="these are silvuss's thoughts">
-    <title>silvuss's thoughts</title>
-
-    {% include index-css.html %}
+    <meta name="description" content="silvuss's thoughts">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index-styles.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <header class="header">
             <h1 class="header__heading">{{ site.title }}</h1>
             <p class="header__description">{{ site.description }}</p>
-            <p class="header__copyright-note">all articles (thoughts) in this place has no license. for more information, see <a href="https://choosealicense.com/no-permission/">this page from github</a>.</p>
+            <p class="header__contact">if you have any comments about this place, you can use <a href="https://github.com/">github's</a> functionality to contact me within <a href="https://github.com/silvuss/silvuss.github.io">the project</a> that stores all the content displayed here.</p>
         </header>
         <ul class="article-list">
             {% for post in site.posts %}
@@ -29,6 +30,10 @@
             </li>
             {% endfor %}
         </ul>
+        <footer class="footer">
+            <span>copyright &copy; 2018 silvuss</span> | 
+            <span>all articles (thoughts) in this place has <strong>no license</strong>. for more information, see <a href="https://choosealicense.com/no-permission/">this page from github</a>.</span>
+        </footer>
     </div>
 </body>
 

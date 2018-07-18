@@ -8,17 +8,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="author" content="silvuss">
-    {% include post-css.html %}
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../css/post-styles.css">
 </head>
 
 <body>
-    <div class="header">
-        <a href="{{ site.url }}">thoughts list</a>
-    </div>
-    <div class="content-container">
-        <div class="content">
-            {{ content }}
+    <div class="containter">
+        <div class="header">
+            <a href="{{ site.url }}">thoughts list</a>
         </div>
+        <div class="content-container">
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+        <footer class="footer">
+            <span>copyright &copy; 2018 silvuss</span> |
+            <span>all articles (thoughts) in this place has <strong>no license</strong>. for more information, see <a href="https://choosealicense.com/no-permission/">this page from github</a>.</span>
+        </footer>
     </div>
 </body>
 
