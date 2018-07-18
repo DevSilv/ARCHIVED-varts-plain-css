@@ -20,7 +20,9 @@ in the tips, i am assuming that **you** are writing **an article**. it will alwa
 
 generally, it should not matter what language you use; but, if you find some contradictions, you can message me on github and i consider whether these things could be improved.
 
-**remember, these rules may not fit all kinds of articles that you write / you want to write. if you are not familiar with some of them, you can (1) stop reading, or (2) message me on github – so i could consider changing or even removing these rules.**
+**remember, these tips may not fit all kinds of articles that you write / you want to write. if you are not familiar with some of them, you can (1) stop reading, or (2) message me on github – so i could consider changing or even removing these tips.**
+
+the tips are not written in any particular order, but i have tried to put some of the most important first.
 
 ## the tips
 
@@ -160,7 +162,7 @@ _**tip:** if you are not aware of when to use which of the aformentioned charact
 
 <sup>3</sup> for polish readers: "—" to "pauza" lub "myślnik".
 
-### 22.
+### 22. differentiate all the cases that you describe.
 
 if a subject, an issue or a topic has several possibilities to choose from, inform the reader whether they may be considered as equivalent, and if not, make it clear what are the differences and when to use which.
 
