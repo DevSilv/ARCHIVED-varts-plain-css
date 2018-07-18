@@ -23,6 +23,7 @@ body {
 }
 
 .article-list {
+    text-align: center;
     list-style: none;
     border-left: none;
     border-top: 1px solid darkgrey;
@@ -63,7 +64,6 @@ body {
     .article-list {
         border-left: 1px solid darkgrey;
         border-top: none;
-        text-align: center;
 
         width: 85%;
         margin-right: 10px;
