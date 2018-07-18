@@ -4,10 +4,10 @@ this project contains my (silvuss's) thoughts on programming, and maybe some oth
 
 ## table of contents
 
-1. [](https://github.com/silvuss/silvuss.github.io#a-copyright-note)
-2. [](https://github.com/silvuss/silvuss.github.io#installation-and-usage)
-3. [](https://github.com/silvuss/silvuss.github.io#the-technologies-and-conventions-used-in-this-project)
-4. [](https://github.com/silvuss/silvuss.github.io#FAQ)
+1. [a copyright note](https://github.com/silvuss/silvuss.github.io#a-copyright-note)
+2. [installation and usage](https://github.com/silvuss/silvuss.github.io#installation-and-usage)
+3. [the technologies and conventions used in this project](https://github.com/silvuss/silvuss.github.io#the-technologies-and-conventions-used-in-this-project)
+4. [FAQ](https://github.com/silvuss/silvuss.github.io#FAQ)
 
 ## a copyright note
 
