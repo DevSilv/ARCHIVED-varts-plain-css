@@ -29,7 +29,7 @@ the tips are not written in any particular order, but i have tried to put some o
 ### 1. write shortly.
 
 perhaps you read that before or someone told you. but let us concentrate particularly on a blog's article. readers of your article may fulfil one or more of the following conditions:
-1. the language of the article is not their native langue.
+1. the language of the article is not the language that they speak natively.
 2. they may want to read the article, but be tired.
 3. they may **not** want to read the article, but have to for some reason.
 
