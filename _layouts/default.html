@@ -1,0 +1,31 @@
+---
+---
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="silvuss">
+    <meta name="description" content="silvuss's thoughts">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    {% if layout != "" %}
+    <link rel="stylesheet" href="{{ layout.css }}">
+    {% endif %}
+    {% if page != "" %}
+    <link rel="stylesheet" href="{{ page.css }}">
+    {% endif %}
+</head>
+
+<body>
+    <div class="container">
+        {{ content }}
+        <footer class="footer">
+            <span>copyright &copy; 2018 silvuss</span> | <span>all articles (thoughts) in this place has <strong>no license</strong>. for more information, see <a href="https://choosealicense.com/no-permission/">this github's guide</a>.</span>
+        </footer>
+    </div>
+</body>
+
+</html>
