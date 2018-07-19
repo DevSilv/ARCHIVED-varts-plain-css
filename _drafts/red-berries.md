@@ -45,9 +45,9 @@ za żonę nie wezmę!
 ## chorus
 
 Za pana nie pójdę,</br>
-sama się szanuję,</br>
-niechże mnie byle kto</br>
-w rączkę nie całuje! x2
+<u title="sam – here: myself">sama</u> <u title="szanować się – to know one's own worth">się szanuję</u>,</br>
+<u title="niechże mnie byle kto w rączkę nie całuje! – kiss me ? not on the hand!">niechże mnie byle kto</br>
+w rączkę nie całuje</u>! x2
 
 Córki pana nie chcę,</br>
 bo sam się szanuję,</br>
@@ -56,8 +56,8 @@ mnie nie kokietuje!
 
 ## strophe 3
 
-Raz mi matuś rzekła:</br>
-Córuś moja droga,</br>
+<u title="raz – once">Raz</u> <u title="mi – me">mi</u> <u title="matuś [diminutive] – mommy">matuś</u> <u title="rzec [old] – to say">rzekła</u>:</br>
+<u title="córuś [diminutive] – precious daughter">Córuś</u> <u title="mój – my">moja</u> <u title="drogi – precious">droga</u>,</br>
 przecież masz majątek –</br>
 – na co ci uroda?
 
