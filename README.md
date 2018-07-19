@@ -11,7 +11,7 @@ this project contains my (silvuss's) thoughts on programming, and maybe some oth
 
 ## a copyright note
 
-note that "silvuss-thoughts" (this project) has **currently no license**, as explained in [this github guide on licensing projects](https://choosealicense.com/no-permission/).
+note that "silvuss-thoughts" (this project) has currently **no license**, as explained in [this github guide on licensing projects](https://choosealicense.com/no-permission/).
 
 for your convenience i am including below a quote from that site:
 
@@ -21,14 +21,18 @@ also note that i can add a lincese in the near future if it would be relevant to
 
 ## installation and usage
 
-you can use this project by opening the following URL in your browser: https://silvuss.github.io/
+this project does not require any installation. you can use it simply by opening the following URL in your browser: https://silvuss.github.io/
 
 ## the technologies and conventions used in this project
 
-**currently**, the following technologies are used in this project:
-- HTML 5.
-- CSS 3.
-- [the liquid template language](https://shopify.github.io/liquid/) (it is used, because i want this project to be published on [github pages](https://pages.github.com/). and while github pages uses [jekyll](https://jekyllrb.com/), and jekyll uses liquid, i have chosen to use it)
+currently, the following technologies are used in this project:
+- markup languages: **HTML 5** and [**markdown**]()
+- style sheet language: **CSS 3**
+- template language: [**liquid**](https://shopify.github.io/liquid/)
+
+also note that the following technologies are used across github:
+- [**jekyll**](https://jekyllrb.com/) is used as a site generator;
+- [**github flavored markdown**]() (GFM) is used as a markdown dialect
 
 ## FAQ
 
