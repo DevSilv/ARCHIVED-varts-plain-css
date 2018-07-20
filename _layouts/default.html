@@ -3,19 +3,31 @@
 
 <!doctype html>
 
-<html lang="en">
+<html lang="{{ site.html-lang }}">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="silvuss">
-    <meta name="description" content="silvuss's thoughts">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta charset="{{ site.meta-charset }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{{ site.meta-description }}">
     <link rel="stylesheet" href="/css/styles.css">
-    {% if layout != "" %}
-    <link rel="stylesheet" href="{{ layout.css }}">
+    {% if layout %}
+        {% if layout.css-files %}
+            {% for cssfile in layout.css-files %}
+                <link rel="stylesheet" href="{{ cssfile }}">
+            {% endfor %}
+        {% endif %}
     {% endif %}
-    {% if page != "" %}
-    <link rel="stylesheet" href="{{ page.css }}">
+    {% if page %}
+        {% if page.css-files %}
+            {% for cssfile in page.css-files %}
+                <link rel="stylesheet" href="{{ cssfile }}">
+            {% endfor %}
+        {% endif %}
+        {% if page.title %}
+        <title>{{ page.title }} | {{ site.title }}</title>
+        {% else %}
+        <title>{{ site.title }}</title>
+        {% endif %}
     {% endif %}
 </head>
 
