@@ -7,6 +7,8 @@
 .header {
     background-color: lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 10px;
@@ -30,8 +32,27 @@
 
 .content {
     text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     width: 90%;
+}
+
+.tag-list {
+    text-align: center;
+
+    margin: 0;
+    margin-top: 30px;
+}
+
+.tag-list__tag {
+    background-color: lavender;
+
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .footer {
@@ -48,6 +69,7 @@ h1 {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 80px;
+    margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -60,7 +82,7 @@ p {
     text-align: justify;
 }
 
-p,
-li {
+.content p,
+.content li {
     line-height: 150%;
 }

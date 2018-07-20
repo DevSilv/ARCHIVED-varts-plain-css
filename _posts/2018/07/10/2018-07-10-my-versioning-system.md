@@ -2,17 +2,14 @@
 layout: post
 title: "the versioning system of my articles"
 date: 2018-07-10
+tags: programming
 ---
 
-# {{ page.title }}
+this article describes what is the versioning system that i apply to my articles. all over the article i will use the term "versioning" as in "software versioning".
 
-## version of this article
-
-this is version 1.3.1.
+_tip: if you are not aware of what software versioning is, you can look at [version control on wikipedia](https://en.wikipedia.org/wiki/Version_control) or [software versioning on wikipedia](https://en.wikipedia.org/wiki/Software_versioning)._
 
 ## introduction
-
-_**tip:** in the article i will use the term "versioning" as in "software versioning". if you are not aware of what software versioning is, you can look at [version control on wikipedia](https://en.wikipedia.org/wiki/Version_control) or [software versioning on wikipedia](https://en.wikipedia.org/wiki/Software_versioning)._
 
 most of the blog posts on the internet (probably) are versioned this or that way.
 
@@ -45,3 +42,7 @@ i can do that, because of the following three rules that i apply to every articl
 ## where i can find the version number in a post?
 
 on the internet versions (if they are provided) are almost always placed within the "meta-information" of a post – that is, directly above it (in the header) or directly below it (in the footer). i chose to place it in the header, directly above every article (between the title and the introduction section).
+
+## version of this article
+
+this is version 1.3.1.

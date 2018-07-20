@@ -1,0 +1,23 @@
+---
+layout: default
+css-files: ["/css/post.css", "/css/tag.css"]
+---
+
+<header class="header">
+    <a href="{{ site.url }}">homepage</a>
+</header>
+<div class="content-container">
+    <main class="content">
+        <h1>{{ page.title }}<span class="tag">{{ page.tag }}</span></h1>
+        <ul>
+            {% for post in site.tags[page.tag] %}
+            <li class="article">
+                <h3>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h3>
+                {{ post.excerpt }}
+            </li>
+            {% endfor %}
+        </ul>
+    </main>
+</div>

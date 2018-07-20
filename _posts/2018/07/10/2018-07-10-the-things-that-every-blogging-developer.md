@@ -2,19 +2,14 @@
 layout: post
 title: "the things that every blogging developer should know"
 date: 2018-07-10
+tags: programming
 ---
-
-# {{ page.title }}
-
-## version of this article
-
-this is version 4.0.0.
-
-## introduction
 
 this article contains tips for bloggers that are programmers (or testers, or similar). i wrote it, because i read a lot (i thinks so) of articles online, much of them talking about programming, code or just being more or less technical. however, i see that some of them break some rules i would like them to hold. consequently, i have decided to verbalize and write down these rules. i assume they may be helpful for some of you.
 
 **you should treat the tips as my own reflections. i used only a few sources while writing. therefore, there are only a few links in the text.**
+
+## introduction
 
 in the tips, i am assuming that **you** are writing **an article**. it will always be read by some **readers**. it may contain **text** and optional **code**, **images**, **videos** and **links**. if you provide code, it means for me that you usually split it into **listings**.  the article that you are writing should have **the primary subject** (== the subject), and may have some **secondary subjects**. both you **describe** or **write about them** in the article.
 
@@ -173,3 +168,7 @@ for example, if your article describe a new programming language, and the langua
 - which of all the applications/uses/use cases (those described by you and those not) are similar? which of them are different? (these are two separate questions)
 - why to choose the language in which of them?
 - even if they are different, could the language play the same role in them?
+
+## version of this article
+
+this is version 4.0.0.
