@@ -1,0 +1,49 @@
+.header {
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+
+    grid-row: 1 / span 1;
+}
+
+.content-container {
+    margin-right: 20px;
+
+    display: flex;
+    justify-content: center;
+
+    grid-row: 2 / span 1;
+}
+
+.content {
+    text-align: justify;
+
+    line-height: 150%;
+    width: 90%;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    text-align: initial;
+
+    line-height: initial;
+}
+
+.content h1 {
+    text-align: center;
+}

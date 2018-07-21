@@ -9,18 +9,28 @@
     <meta charset="{{ site.meta-charset }}">
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.meta-description }}">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/default.css">
     {% if layout %}
-        {% if layout.css-files %}
-            {% for cssfile in layout.css-files %}
-                <link rel="stylesheet" href="{{ cssfile }}">
+        {% if layout.pagecss %}
+            {% for file in layout.pagecss %}
+                <link rel="stylesheet" href="{{ file }}">
+            {% endfor %}
+        {% endif %}
+        {% if layout.postcss %}
+            {% for file in layout.postcss %}
+                <link rel="stylesheet" href="{{ file }}">
+            {% endfor %}
+        {% endif %}
+        {% if layout.tagcss %}
+            {% for file in layout.tagcss %}
+                <link rel="stylesheet" href="{{ file }}">
             {% endfor %}
         {% endif %}
     {% endif %}
     {% if page %}
-        {% if page.css-files %}
-            {% for cssfile in page.css-files %}
-                <link rel="stylesheet" href="{{ cssfile }}">
+        {% if page.cssfiles %}
+            {% for file in page.cssfiles %}
+                <link rel="stylesheet" href="{{ file }}">
             {% endfor %}
         {% endif %}
         {% if page.title %}

@@ -1,44 +1,10 @@
-.containter {
-    display: grid;
-    grid-template-rows: 40px 1fr auto;
-    grid-template-columns: auto;
-}
+.tag-list {
+    list-style: none;
 
-.header {
-    background-color: lightgray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.1rem;
+    padding-left: 0;
 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-
-    position: sticky;
-    top: 0;
-
-    display: flex;
-    align-items: center;
-
-    grid-row: 1 / span 1;
-}
-
-.content-container {
     display: flex;
     justify-content: center;
-
-    grid-row: 2 / span 1;
-}
-
-.content {
-    text-align: justify;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    width: 90%;
-}
-
-.tag-list {
-    text-align: center;
 
     margin: 0;
     margin-top: 30px;
@@ -46,11 +12,11 @@
 
 .tag-list__tag {
     background-color: lavender;
-
-    margin: 0;
+    
     margin-left: 10px;
     margin-right: 10px;
-    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     padding-left: 7px;
     padding-right: 7px;
 }
@@ -64,8 +30,6 @@
 }
 
 h1 {
-    text-align: center;
-
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 80px;
@@ -76,13 +40,4 @@ h1 {
 
 h2 {
     margin-top: 50px;
-}
-
-p {
-    text-align: justify;
-}
-
-.content p,
-.content li {
-    line-height: 150%;
 }

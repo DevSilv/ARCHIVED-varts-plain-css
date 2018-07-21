@@ -2,14 +2,16 @@
 layout: post
 title: "the things that every blogging developer should know"
 date: 2018-07-10
-tags: programming
+tags: programming blogging
 ---
 
-this article contains tips for bloggers that are programmers (or testers, or similar). i wrote it, because i read a lot (i thinks so) of articles online, much of them talking about programming, code or just being more or less technical. however, i see that some of them break some rules i would like them to hold. consequently, i have decided to verbalize and write down these rules. i assume they may be helpful for some of you.
+this article contains tips for bloggers that are programmers (or testers, or similar) on how to create a good article.
 
-**you should treat the tips as my own reflections. i used only a few sources while writing. therefore, there are only a few links in the text.**
+**you should treat the tips as my own reflections. i used only a few helping sources while writing.**
 
 ## introduction
+
+ i wrote this article, because i read a lot (i thinks so) of articles online, much of them talking about programming, code or just being more or less technical. however, i see that some of them break some rules i would like them to hold. consequently, i have decided to verbalize and write down these rules. i assume they may be helpful for some of you.
 
 in the tips, i am assuming that **you** are writing **an article**. it will always be read by some **readers**. it may contain **text** and optional **code**, **images**, **videos** and **links**. if you provide code, it means for me that you usually split it into **listings**.  the article that you are writing should have **the primary subject** (== the subject), and may have some **secondary subjects**. both you **describe** or **write about them** in the article.
 

@@ -5,7 +5,9 @@ date: 2018-07-10
 tags: programming
 ---
 
-this article describes what is the versioning system that i apply to my articles. all over the article i will use the term "versioning" as in "software versioning".
+this article describes what is the versioning system that i apply to my articles.
+
+
 
 _tip: if you are not aware of what software versioning is, you can look at [version control on wikipedia](https://en.wikipedia.org/wiki/Version_control) or [software versioning on wikipedia](https://en.wikipedia.org/wiki/Software_versioning)._
 

@@ -1,20 +1,18 @@
 ---
 layout: default
-css-files: "/css/index.css"
+cssfiles: "/css/index.css"
 ---
 
 <header class="header">
     <h1 class="header__heading">{{ site.title }}</h1>
     <p class="header__description">{{ site.description }}</p>
-    <p class="header__contact">this place is hosted on <a href="https://github.com/">github</a>. if you have any comments about it, you can use github's functionality to contact me. please do it within <a href="https://github.com/silvuss/silvuss.github.io">the project</a> that stores all the content displayed here.</p>
+    <p class="header__description">this place is hosted on <a href="https://github.com/">github</a>. if you have any comments about it, you can use github's functionality to contact me. please do it within <a href="https://github.com/silvuss/silvuss.github.io">the project</a> that stores all the content displayed here.</p>
     <p class="header__description">for any further details, see <a href="https://github.com/silvuss/silvuss.github.io/blob/master/README.md">this project's readme</a>.</p>
 </header>
 <ul class="article-list">
     {% for post in site.posts %}
-    <li>
-        <p>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%Y %B %d" }}
-        </p>
+    <li class="article-list__article">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%Y %B %d" }}
     </li>
     {% endfor %}
 </ul>
