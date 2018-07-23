@@ -19,6 +19,11 @@
     margin-top: 20px;
 }
 
+.containter {
+    grid-template-rows: 40px 1fr auto;
+    grid-template-columns: auto;
+}
+
 .article-list {
     text-align: center;
     list-style: none;

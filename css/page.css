@@ -17,6 +17,11 @@
     grid-row: 1 / span 1;
 }
 
+.container {
+    grid-template-rows: 40px 1fr auto;
+    grid-template-columns: auto;
+}
+
 .content-container {
     margin-right: 20px;
 
@@ -29,7 +34,7 @@
 .content {
     text-align: justify;
 
-    line-height: 150%;
+    line-height: 130%;
     width: 90%;
 }
 
@@ -46,4 +51,10 @@
 
 .content h1 {
     text-align: center;
+}
+
+@media (min-width: 450px) {
+    .content {
+        line-height: 150%;
+    }
 }
