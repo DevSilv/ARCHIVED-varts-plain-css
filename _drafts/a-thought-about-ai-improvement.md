@@ -1,10 +1,19 @@
+---
+layout: post
+title: "a thought about improving AI"
+date: 2018-07-23
+tags: philosophy AI
+---
+
 when it comes about AI, it is almost always said that it is still being improved. of course, there are usually reasons given (and usually implicitly) why it has to be improved – for better security, safety or usability.
 
 but yesterday a thought came to my mind: what does "improved" exactly mean? as it is never explained, is it really not confusing?
 
 since AI means intelligence that is "artificial", i understand it at first as "made by humans". but still it is not clear what does it mean that something made by us "can be improved", or "is being improved" or "is improved".
 
-so, since "to improve a thing" means "to make a thing as good as something", we can make further distinction:
+let us try to understand this.
+
+firstly, since "to improve a thing" means "to make a thing better", which translates to "to make a thing as good as this thing that we imagined", we can make further distinction:
 
 1. do we ("the creators") want the AI to be as good as ourselves, or
 2. do we want it to be as good as it can be?
