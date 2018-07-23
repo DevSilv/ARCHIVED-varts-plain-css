@@ -1,3 +1,9 @@
+.containter {
+    display: grid;
+    grid-template-rows: 40px 1fr auto;
+    grid-template-columns: auto;
+}
+
 .header {
     text-align: center;
 
@@ -17,11 +23,6 @@
 .header__description {
     margin: 0;
     margin-top: 20px;
-}
-
-.containter {
-    grid-template-rows: 40px 1fr auto;
-    grid-template-columns: auto;
 }
 
 .article-list {
@@ -44,8 +45,19 @@
     padding-bottom: 10px;
 }
 
+.footer {
+    grid-row: 3 / span 1;
+}
+
+.rss-container {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+}
+
 @media (min-width: 450px) {
     .container {
+        display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr auto;
     }
@@ -88,5 +100,9 @@
     .footer {
         grid-column: 1 / span 2;
         grid-row: 2 / span 1;
+    }
+    
+    .rss-container {
+        right: 110px;
     }
 }

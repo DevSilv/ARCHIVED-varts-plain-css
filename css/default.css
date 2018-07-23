@@ -2,16 +2,14 @@ body {
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    max-width: 800px;
     margin: auto;
+    max-width: 800px;
 }
 
 .container {
     overflow-wrap: break-word;
 
     height: 100vh;
-    
-    display: grid;
 }
 
 .footer {
@@ -27,6 +25,15 @@ h1 {
 
 h2 {
     font-size: 1.3rem;
+}
+
+.rss-container {
+    z-index: 1;
+}
+
+.rss-icon {
+    max-width: 24px;
+    max-height: 24px;
 }
 
 @media (min-width: 450px) {
