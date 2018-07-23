@@ -5,3 +5,5 @@ url: https://silvuss.github.io/
 html-lang: "en"
 meta-charset: "utf-8"
 meta-description: "silvuss's thoughts"
+plugins:
+  - jekyll-feed
