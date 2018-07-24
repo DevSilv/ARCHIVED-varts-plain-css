@@ -9,7 +9,7 @@
     <meta charset="{{ site.meta-charset }}">
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.meta-description }}">
-    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="{{ site.data.uris.css.default }}">
     {% if layout %}
         {% if layout.pagecss %}
             {% for file in layout.pagecss %}
@@ -44,8 +44,8 @@
 <body>
     <div class="container">
         <div class="rss-container">
-            <a href="/feed.xml">
-                <img src="/rss-icon-640-480.png" class="rss-icon">
+            <a href="{{ site.data.uris.xml.feed }}">
+                <img src="{{ site.data.uris.images.rss.uri }}" class="rss-icon">
             </a>
         </div>
         {{ content }}
