@@ -1,0 +1,16 @@
+{
+    "images": {
+        "rss": "/images/rss-icon-640-480.png"
+    },
+    "css": {
+        "default": "/css/default.css",
+        "header": "/css/header.css"
+    },
+    "js": {
+        "display-search-results": "/js/display-search-results.js",
+        "search": "/js/search.js"
+    },
+    "xml": {
+        "feed": "/feed.xml"
+    }
+}

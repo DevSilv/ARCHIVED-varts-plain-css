@@ -27,15 +27,6 @@ h2 {
     font-size: 1.3rem;
 }
 
-.rss-container {
-    z-index: 1;
-}
-
-.rss-icon {
-    max-width: 24px;
-    max-height: 24px;
-}
-
 @media (min-width: 450px) {
     h1 {
         font-size: 2rem;

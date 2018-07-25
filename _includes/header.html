@@ -1,0 +1,22 @@
+<header class="header">
+    {% if include.wide == "true" %}
+    <a href="{{ site.url }}">homepage</a> {% endif %}
+    <div class="header-controls">
+        <form class="search-form" onsubmit="event.preventDefault();">
+            <input class="search-form__input"
+                type="text"
+                placeholder="{{ site.data.strings.search.placeholder }}"
+                onblur="hideResults();"
+                onfocus="showResults();"
+                onkeypress="search('{{ site.data.strings.no-search-results }}');"
+                >
+            <ul class="search-form__results-list"></ul>
+        </form>
+        <div class="rss-container">
+            <span class="rss-label">RSS:</span>
+            <a href="{{ site.data.internal-uris.xml.feed }}">
+                <img class="rss-icon" src="{{ site.data.internal-uris.images.rss }}">
+            </a>
+        </div>
+    </div>
+</header>

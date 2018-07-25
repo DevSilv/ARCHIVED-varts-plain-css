@@ -1,11 +1,9 @@
 ---
 layout: default
-pagecss: "/css/page.css"
+pagecss: ["/css/page.css", "/css/header.css"]
 ---
 
-<header class="header">
-    <a href="{{ site.url }}">homepage</a>
-</header>
+{% include header.html wide="true" %}
 <div class="content-container">
     <main class="content">
         {{ content }}

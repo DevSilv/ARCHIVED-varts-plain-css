@@ -1,0 +1,14 @@
+{
+    "images": {
+        "rss": {
+            "source": {
+                "name": "pixabay.com",
+                "uri": "https://pixabay.com/en/rss-feed-icon-atom-feed-button-2027180/"
+            },
+            "licence": {
+                "name": "Creative Commons CC0",
+                "uri": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+            }
+        }
+    }
+}
