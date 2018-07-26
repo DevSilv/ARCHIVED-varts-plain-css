@@ -12,11 +12,16 @@
 }
 
 .header-controls {
+    margin-top: 5px;
+
     display: flex;
     align-items: center;
 }
 
 .search-form {
+    /* "position: relative" has to be
+    defined in order that its children
+    "absolute" position works*/
     position: relative;
 }
 
@@ -25,17 +30,24 @@
 }
 
 .search-form__results-list {
-    display: none;
-    position: absolute;
+    background-color: beige;
+    border: 2px solid darkgrey;
+    font-size: 1rem;
+
     margin-top: 0;
     /* additional 16 would from default input element borders,
     and there is 12 instead of 16 from my ul element borders */
-    min-width: 212px;
+    /* min-width: 196px; */
+    width: 150px;
     max-height: 8rem;
-    background-color: beige;
-    border: 2px solid darkgrey;
     overflow-y: auto;
     padding-left: 0;
+
+    display: none;
+    /* "position: absolute" has
+    to be defined in order not to
+    change layout while appearing */
+    position: absolute;
 }
 
 .search-form__results-list__item {
@@ -43,7 +55,16 @@
     border-bottom: 1px solid grey;
 }
 
+.search-form__results-list__item:last-child {
+    border-bottom: none;
+}
+
 .search-form__results-list__item__link {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     display: block;
 }
 
@@ -52,8 +73,8 @@
 }
 
 .rss-container {
-    margin-left: 50px;
-    
+    margin-top: 5px;
+
     display: flex;
     align-items: center;
 }
@@ -66,4 +87,18 @@
     max-width: 24px;
     max-height: 24px;
     margin-left: 5px;
+}
+
+@media (min-width: 450px) {
+    .header-controls {
+        margin-top: 0px;
+    }
+
+    .search-form__results-list {
+        width: 200px;
+    }
+
+    .rss-container {
+        margin-top: 0;
+    }
 }

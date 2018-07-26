@@ -1,8 +1,9 @@
 ---
 layout: default
-cssfiles: "/css/index.css"
+cssfiles: ["/css/header.css", "/css/index.css"]
 ---
 
+{% include header.html wide="false" %}
 <div class="left-panel">
     <h1 class="left-panel__heading">{{ site.title }}</h1>
     <p class="left-panel__description">{{ site.description }}</p>

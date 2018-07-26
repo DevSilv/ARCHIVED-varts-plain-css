@@ -1,6 +1,9 @@
 // onblur
-function hideResults() {
-    $(".search-form__results-list").hide();
+function hideResults(event) {
+    if (event.relatedTarget === null ||
+        !event.relatedTarget.classList.contains("search-form__results-list__item__link")) {
+        $(".search-form__results-list").hide();
+    }
 }
 
 // onfocus
@@ -11,7 +14,7 @@ function showResults() {
     }
 }
 
-// onkeypress
+// onkeyup
 function search(noResultsText) {
     const resultsElement = $(".search-form__results-list");
     resultsElement.empty();

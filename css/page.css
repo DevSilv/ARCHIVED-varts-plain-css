@@ -8,7 +8,8 @@
     background-color: lightgray;
 
     max-width: 780px;
-    width: 100%;
+    /* 20px means padding (set in default header styles) */
+    width: calc(100% - 20px);
 
     position: fixed;
     top: 0;
@@ -16,6 +17,16 @@
     justify-content: space-between;
 
     grid-row: 1 / span 1;
+}
+
+.search-form {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-form__input {
+    /* 16px is from default input borders */
+    width: calc(100% - 16px);
 }
 
 .content-container {

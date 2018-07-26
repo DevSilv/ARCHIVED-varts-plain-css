@@ -6,6 +6,11 @@
 
 .header {
     justify-content: flex-end;
+    flex-direction: column;
+}
+
+.header-controls {
+    flex-direction: column;
 }
 
 .left-panel {
@@ -60,9 +65,18 @@
         grid-template-rows: 40px 1fr auto;
     }
 
+    .header,
+    .header-controls {
+        flex-direction: row;
+    }
+
     .header {
         grid-row: 1 / span 1;
         grid-column: 1 / span 2;
+    }
+
+    .rss-container {
+        margin-left: 50px;
     }
 
     .left-panel {

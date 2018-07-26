@@ -6,9 +6,9 @@
             <input class="search-form__input"
                 type="text"
                 placeholder="{{ site.data.strings.search.placeholder }}"
-                onblur="hideResults();"
+                onblur="hideResults(event);"
                 onfocus="showResults();"
-                onkeypress="search('{{ site.data.strings.no-search-results }}');"
+                onkeyup="search('{{ site.data.strings.no-search-results }}');"
                 >
             <ul class="search-form__results-list"></ul>
         </form>

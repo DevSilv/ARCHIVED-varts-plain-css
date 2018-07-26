@@ -1,6 +1,6 @@
 {
     "search": {
-        "placeholder": "type something to search",
+        "placeholder": "search...",
         "no-search-results": "sorry, no results found"
     }
 }
