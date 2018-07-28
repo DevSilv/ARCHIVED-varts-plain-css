@@ -5,7 +5,7 @@ date: 2018-07-23
 tags: philosophy AI
 ---
 
-when it comes about AI, it is almost always said that it is still being improved. of course, there are usually reasons given (and usually implicitly) why it has to be improved – for better security, safety or usability.
+when it comes to AI, it is almost always said that it is still being improved. of course, there are usually reasons given (and usually implicitly) why it has to be improved – for better security, safety or usability.
 
 but a few days ago a thought came to my mind: what does "improved" exactly mean? as it is never explained in the articles, one can assume that it is not confusing. i asked myself: is it really?
 
@@ -33,7 +33,7 @@ so now, our thing has to meet some requirements. as this is, i presume, clear, w
 1. who is the creator of the thing == who is responsible for meeting the requirements by the thing?
 2. what are the requirements?
 
-and when it comes about AI, the answer for the first question is:
+and when it comes to AI, the answer for the first question is:
 
 1. we, humans, are the creators (at least as it is nowadays).
 
@@ -42,7 +42,7 @@ the answer for the second one would be more complicated (if not impossible, as t
 - the requirements about us – which may be understood as "the AI has to be as good as is our intelligence".
 - the requirements about everything – which may be understood as "the AI has to be as good as it can be".
 
-there are of course other choises ("as good as an earlier version of itself", "as good as something another else" etc.). but i see these two the most frequently in articles over the internet, so i will stick to them in this article.
+there are of course other choices ("as good as an earlier version of itself", "as good as something another else" etc.). but i see these two the most frequently in articles over the internet, so i will stick to them in this article.
 
 these two cases may indeed be separate if we presume that we, humans, are not "as good as we can be". to simplify the rest of my thoughts, i will be presuming this state across the rest of the article (and hoping that you all agree with me).
 
