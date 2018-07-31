@@ -7,7 +7,7 @@ tags: blogging
 
 when you read my articles, you may notice that i write them without capital letters. this may seem strange, like i have made it up for myself and do not care what others would think. but this is only partially true.
 
-## only comments in the old days
+## in the old days
 
 the story begins when i was studying software engineering. back then i was writing code to pass my exams and so on. at the beginning of studying, my code was self-explanatory (like probably every code displaying "hello world"). but in the course of time, it was becoming more complex, so i needed (i was thinking i needed) to add comments.
 
