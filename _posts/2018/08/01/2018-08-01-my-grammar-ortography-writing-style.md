@@ -86,7 +86,13 @@ as a result, i have created rules, my own rules that i will follow. what was imp
 
 ### 1. general rules
 
-- i do not use capital letters. exceptions are:
+- i do not use capital letters. this rule is possibly the greatest change that i did to the usual orthography, so i am going to give more details on it. from what i have written so far, i have two options to keep consistency:
+    1. use capital letters whenever it is recommended by the general orthography rules and guidelines (e.g. the git guidelines);
+    2. avoid using capital letters at all.
+
+    if i had chose the first, it would have been harder to explain for me the notation of git commit messages (what capital letters for, if there is only one sentence?) and comments in the code (there SHOULD be only one sentence). so i chose the latter.
+    
+    exceptions to this rule are:
     - acronyms – for example "USA";
     - words that could be confused if not written with capitals – for example programming language symbols (function names, parameter names, and so on) and mathematical, physical or technical symbols ("K" – kelvin, "GB" – gigabyte, and so on).
 - i avoid using colloquial terms.
@@ -137,6 +143,7 @@ one may ask: should others follow your rules, or should they avoid them?
 1. i created them myself – and i am a layman, i have only a small background in writing.
 2. they are breaking some other well acknowledged rules, for example in the orthography field: https://en.oxforddictionaries.com/spelling/using-capital-letters
 3. they are not well-reasoned in any field (except my own ideas).
+4. the text without capital letters is less natural, therefore harder to read and easier to make a mistake.
 
 my second advice is as follows: **if you are looking for rules to follow, stick to these:**
 
