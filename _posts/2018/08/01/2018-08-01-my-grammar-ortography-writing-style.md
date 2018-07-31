@@ -110,10 +110,10 @@ i try to treat commits in git as they are treated [in its own documentation](htt
 
 therefore:
 
-- i avoid writing verbless sentences.
+- i avoid verbless sentences.
 - i try to fit the whole message into one sentence.
 - i do not end the last sentence with a period.
-- i avoid using articles (a, an, the) and some conjunctions (if, then, but).
+- i avoid articles (a, an, the) and some conjunctions (if, then, but).
 - i avoid eloquence (so, but, instead of).
 
 ### 4. rules for other comments and "standalone" texts
@@ -138,8 +138,8 @@ one may ask: should others follow your rules, or should they avoid them?
 2. they are breaking some other well acknowledged rules, for example in the orthography field: https://en.oxforddictionaries.com/spelling/using-capital-letters
 3. they are not well-reasoned in any field (except my own ideas).
 
-my second advice is as follows: **if you are looking for good rules to follow, stick to these:**
+my second advice is as follows: **if you are looking for rules to follow, stick to these:**
 
-- a subset of mine – dedicated to everybody, not just myself: https://silvuss.github.io/2018/07/10/the-things-that-every-blogging-developer.html
-- a usual english grammar: https://en.oxforddictionaries.com/grammar
+- [a subset of mine – dedicated to everybody, not just myself](https://silvuss.github.io/2018/07/10/the-things-that-every-blogging-developer.html)
+- [a usual english grammar described by the oxford university]( https://en.oxforddictionaries.com/grammar)
 - similar that are used in your language, institution, region or country.
