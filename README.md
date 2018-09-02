@@ -4,10 +4,10 @@ this project contains my (silvuss's) thoughts on programming, and maybe some oth
 
 ## table of contents
 
-1. [a copyright note](https://github.com/silvuss/silvuss.github.io#a-copyright-note)
-2. [installation and usage](https://github.com/silvuss/silvuss.github.io#installation-and-usage)
-3. [the technologies and conventions used in this project](https://github.com/silvuss/silvuss.github.io#the-technologies-and-conventions-used-in-this-project)
-4. [FAQ](https://github.com/silvuss/silvuss.github.io#faq)
+1. [a copyright note](https://github.com/silvuss/{{ site.data.misc.github.repository.name }}#a-copyright-note)
+2. [installation and usage](https://github.com/silvuss/{{ site.data.misc.github.repository.name }}#installation-and-usage)
+3. [the technologies and conventions used in this project](https://github.com/silvuss/{{ site.data.misc.github.repository.name }}#the-technologies-and-conventions-used-in-this-project)
+4. [FAQ](https://github.com/silvuss/{{ site.data.misc.github.repository.name }}#faq)
 
 ## a copyright note
 
@@ -21,7 +21,7 @@ also note that i can add a lincese in the near future if it would be relevant to
 
 ## installation and usage
 
-this project does not require any installation. you can use it simply by opening the following URL in your browser: https://silvuss.github.io/
+this project does not require any installation. you can use it simply by opening the following URL in your browser: {{ site.data.external-uris.site }}
 
 ## the technologies and conventions used in this project
 
@@ -48,7 +48,7 @@ here (and possibly in every github project of mine) i use a convention of not us
 
 every post of mine is assigned a version number. it is created according to a convention called [**semantic versioning**](https://semver.org/).
 
-for more details on how i have chosen to use versions, see [the versioning system of my articles](https://silvuss.github.io/2018/07/10/my-versioning-system.html).
+for more details on how i have chosen to use versions, see [the versioning system of my articles]({{ site.data.external-uris.site }}2018/07/10/my-versioning-system.html).
 
 ### i have noticed that the content of your post which i read earlier has changed. why?
 
