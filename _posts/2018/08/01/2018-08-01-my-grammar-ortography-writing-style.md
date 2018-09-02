@@ -132,7 +132,7 @@ these rules seem to be easier to follow, since i treat "other comments" as "stan
 - if possible, i divide the text into relatively short paragraphs.
 - if possible, i try to apply the three-part structure: introduction, body and conclusion.
 
-these are not all the rules that i try to follow. the other part is earlier described by me here: {{ site.data.external-uris.site }}2018/07/10/the-things-that-every-blogging-developer.html
+these are not all the rules that i try to follow. the other part is earlier described by me here: {{ site.url }}2018/07/10/the-things-that-every-blogging-developer.html
 
 ## i follow these rules… so what then?
 
@@ -147,6 +147,6 @@ one may ask: should others follow your rules, or should they avoid them?
 
 my second advice is as follows: **if you are looking for rules to follow, stick to these:**
 
-- [a subset of mine – dedicated to everybody, not just myself]({{ site.data.external-uris.site }}2018/07/10/the-things-that-every-blogging-developer.html)
+- [a subset of mine – dedicated to everybody, not just myself]({{ site.url }}2018/07/10/the-things-that-every-blogging-developer.html)
 - [a usual english grammar described by the oxford university]( https://en.oxforddictionaries.com/grammar)
 - similar that are used in your language, institution, region or country.

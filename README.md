@@ -21,7 +21,7 @@ also note that i can add a lincese in the near future if it would be relevant to
 
 ## installation and usage
 
-this project does not require any installation. you can use it simply by opening the following URL in your browser: {{ site.data.external-uris.site }}
+this project does not require any installation. you can use it simply by opening the following URL in your browser: {{ site.url }}
 
 ## the technologies and conventions used in this project
 
@@ -48,7 +48,7 @@ here (and possibly in every github project of mine) i use a convention of not us
 
 every post of mine is assigned a version number. it is created according to a convention called [**semantic versioning**](https://semver.org/).
 
-for more details on how i have chosen to use versions, see [the versioning system of my articles]({{ site.data.external-uris.site }}2018/07/10/my-versioning-system.html).
+for more details on how i have chosen to use versions, see [the versioning system of my articles]({{ site.url }}2018/07/10/my-versioning-system.html).
 
 ### i have noticed that the content of your post which i read earlier has changed. why?
 
