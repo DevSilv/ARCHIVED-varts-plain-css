@@ -4,7 +4,7 @@
     },
     "css": {
         "default": "/css/default.css",
-        "header": "/css/header.css",
+        "header": "/silvuss-thoughts-plain-css/css/header.css",
         "index": "/css/index.css",
         "page": "/css/page.css",
         "post": "/css/post.css",
