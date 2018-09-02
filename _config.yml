@@ -2,6 +2,7 @@ title: "silvuss's thoughts"
 author: "silvuss"
 description: "hello, i am silvuss, and here you can find my thoughts on programming, and maybe some other topics. english is not my native language."
 url: https://silvuss.github.io/silvuss-thoughts-plain-css/
+baseurl: ''
 html-lang: "en"
 meta-charset: "utf-8"
 meta-description: "silvuss's thoughts"
