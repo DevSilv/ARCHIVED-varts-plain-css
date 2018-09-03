@@ -1,6 +1,7 @@
 <header class="header">
     {% if include.wide == "true" %}
-    <a href="{{ site.url }}{{ site.baseurl }}/">homepage</a> {% endif %}
+        <a href="{{ site.baseurl }}/">homepage</a>
+    {% endif %}
     <div class="header-controls">
         <form class="search-form" onsubmit="event.preventDefault();">
             <input class="search-form__input"
