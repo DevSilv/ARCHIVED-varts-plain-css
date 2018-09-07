@@ -4,4 +4,4 @@ this repository contains a snapshot of "silvuss thoughts" website from 2018 aug 
 
 ## will files in this repository be updated?
 
-any files in this repository will be improved or fixed only in special cases.
+any files in this repository will be updated (i.e. improved or fixed) only in special cases.
