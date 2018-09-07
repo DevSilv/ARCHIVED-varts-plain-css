@@ -1,5 +1,6 @@
 ---
 layout: page
+tagcss: "/css/tag.css"
 ---
 
 
@@ -8,7 +9,7 @@ layout: page
     {% for post in site.tags[page.tag] %}
         <li class="article">
             <h3>
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </h3>
             {{ post.excerpt }}
         </li>

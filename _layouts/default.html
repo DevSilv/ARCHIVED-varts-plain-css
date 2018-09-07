@@ -9,22 +9,39 @@
     <meta charset="{{ site.meta-charset }}">
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.meta-description }}">
-    <link rel="stylesheet" href="{{ site.data.internal-uris.css.default }}">
-    <link rel="stylesheet" href="{{ site.data.internal-uris.css.header }}">
-    <link rel="stylesheet" href="{{ site.data.internal-uris.css.index }}">
-    <link rel="stylesheet" href="{{ site.data.internal-uris.css.page }}">
-    <link rel="stylesheet" href="{{ site.data.internal-uris.css.post }}">
-    <link rel="stylesheet" href="{{ site.data.internal-uris.css.tag }}">
-    <script src="{{ site.data.external-uris.jquery }}"></script>
-    <script src="{{ site.data.internal-uris.js.display-search-results }}"></script>
-    <script src="{{ site.data.internal-uris.js.search }}"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ site.data.internal-uris.css.default }}">
+    {% if layout %}
+        {% if layout.pagecss %}
+            {% for file in layout.pagecss %}
+                <link rel="stylesheet" href="{{ site.baseurl }}{{ file }}">
+            {% endfor %}
+        {% endif %}
+        {% if layout.postcss %}
+            {% for file in layout.postcss %}
+                <link rel="stylesheet" href="{{ site.baseurl }}{{ file }}">
+            {% endfor %}
+        {% endif %}
+        {% if layout.tagcss %}
+            {% for file in layout.tagcss %}
+                <link rel="stylesheet" href="{{ site.baseurl }}{{ file }}">
+            {% endfor %}
+        {% endif %}
+    {% endif %}
     {% if page %}
+        {% if page.cssfiles %}
+            {% for file in page.cssfiles %}
+                <link rel="stylesheet" href="{{ site.baseurl }}{{ file }}">
+            {% endfor %}
+        {% endif %}
         {% if page.title %}
         <title>{{ page.title }} | {{ site.title }}</title>
         {% else %}
         <title>{{ site.title }}</title>
         {% endif %}
     {% endif %}
+    <script src="{{ site.data.external-uris.jquery }}"></script>
+    <script src="{{ site.baseurl }}{{ site.data.internal-uris.js.display-search-results }}"></script>
+    <script src="{{ site.baseurl }}{{ site.data.internal-uris.js.search }}"></script>
 </head>
 
 <body>
