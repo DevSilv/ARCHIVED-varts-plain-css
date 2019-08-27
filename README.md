@@ -1,4 +1,4 @@
-**INFORMATION: This repository has been archived as of August 27, 2019.**
+**INFORMATION: This repository was archived on August 27, 2019.**
 
 ---
 
