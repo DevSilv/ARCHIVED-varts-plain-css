@@ -1,3 +1,7 @@
+**INFORMATION: This project ("silvuss-thoughts-plain-css") is to be treated as archived as of August 27, 2019. Contributing to this project is not planned.**
+
+---
+
 # "silvuss thoughts" in plain CSS
 
 This repository contains a snapshot of the "silvuss thoughts" website from 2018 Aug 01 (back then named "silvuss's thoughts") built with plain [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). The snapshot looks the same as the original website **in the time that it was taken**. You can view it here: https://silvuss.github.io/silvuss-thoughts-plain-css/.
