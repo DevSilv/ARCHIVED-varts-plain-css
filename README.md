@@ -1,4 +1,4 @@
-**INFORMATION: This project ("silvuss-thoughts-plain-css") is to be treated as archived as of August 27, 2019. Contributing to this project is not planned.**
+**INFORMATION: This repository has been archived as of August 27, 2019.**
 
 ---
 
