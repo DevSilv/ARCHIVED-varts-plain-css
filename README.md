@@ -2,11 +2,11 @@
 
 ---
 
-# "silvuss thoughts" in plain CSS
+# "varts" in plain CSS
 
-This repository contains a snapshot of the "silvuss thoughts" website from 2018 Aug 01 (back then named "silvuss's thoughts") built with plain [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). The snapshot looks the same as the original website **in the time that it was taken**. You can view it here: https://silvuss.github.io/silvuss-thoughts-plain-css/.
+This repository contains a snapshot of the "varts" website from 2018 Aug 01 built with plain [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). The snapshot looks the same as the original website **in the time that it was taken**.
 
-This README is different than the original one. For any current information, see the [current README](https://github.com/silvuss/silvuss.github.io/blob/master/README.md).
+This README is different than the original one.
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ This README is different than the original one. For any current information, see
 
 ## Copyright note
 
-Note that this "silvuss-thoughts-plain-css" (this project) has **currently no license**, as explained here: https://choosealicense.com/no-permission/.
+Note that this "varts-plain-css" (this project) has **currently no license**, as explained here: https://choosealicense.com/no-permission/.
 
 For your convenience, I am including below a quote from that site:
 
